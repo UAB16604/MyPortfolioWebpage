@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+
+    <div id="particles-js" class="background-animation"></div>
+    <nav>
+        <ul>
+            <li><a href="#home"><i data-lucide="home"></i><span></span></a></li>
+            <li><a href="#about"><i data-lucide="user"></i><span></span></a></li>
+            <li><a href="#projects"><i data-lucide="folder"></i><span></span></a></li>
+            <li><a href="#contact"><i data-lucide="mail"></i><span></span></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h1 class="scroll-animate"></h1>
+            <p class="scroll-animate">Hi, I'm Uzair Ahmed Butt. I craft digital experiences that inspire and engage.</p>
+        </section>
+
+        <section id="about">
+            <h2 class="scroll-animate">About Me</h2>
+            <div class="about-content">
+                <img src="Uzair.png" alt="" class="profile-pic scroll-animate left">
+                <p class="scroll-animate right">I'm a passionate web developer. I specialize in creating unique,
+                    responsive, and user-friendly websites that leave a lasting impression.</p>
+            </div>
+            <div class="skills stagger-animate">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="scroll-animate">My Projects</h2>
+            <div class="project-grid stagger-animate">
+                <a href="https://uab16604.github.io/My-Quiz-App/" class="project-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-content">
+                        <h3>Project 1</h3>
+                        <p>A user-friendly quiz app offering fun and challenging assessments.</p>
+                    </div>
+                </a>
+                <a href="https://uab16604.github.io/MyWeatherApp/" class="project-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-content">
+                        <h3>Project 2</h3>
+                        <p>A sleek weather application ensuring user-friendly navigation.</p>
+                    </div>
+                </a>
+                <a href="https://uab16604.github.io/TODO-LIST-APP/" class="project-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-content">
+                        <h3>Project 3</h3>
+                        <p>Built an advanced To-Do List app in React with dynamic task management.</p>
+                    </div>
+                </a>
+                <a href="https://uzairstore.netlify.app" class="project-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="project-content">
+                        <h3>Project 4</h3>
+                        <p>Built a Store app in React with product management and dynamic cart functionality.</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="scroll-animate">Get In Touch</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="scroll-animate">
+                <input type="hidden" name="access_key" value="ca97e107-f013-46cd-a2e9-6aaf324e20a6">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
